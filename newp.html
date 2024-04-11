@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newp.css">
+    <style>
+        .ggg{
+            display: grid;
+            grid-template-areas: 
+            "header header  header header header header  "
+            " left left left  right right right "
+            "main main main main main main";
+        }
+        header{
+            grid-area: header;
+            /* border: solid blue; */
+            height: 5vh;
+            display: flex;
+            justify-content: space-between;
+         }
+         nav{
+            display: flex;
+            justify-content: space-between;
+            
+         }
+         a{
+            text-decoration: none;
+            margin-top: 6px;
+            margin-left:30px ;
+            font-size: 15px;
+            
+         }
+        .bod{
+            display: flex;
+            align-items: center;
+        }
+
+    h1{
+        font-size: 40px;
+        
+        
+    }
+    .prime{
+        margin-left: 200px;
+        text-align: left;
+        margin-top: 2px;
+        
+    }
+        .left{
+            grid-area: left;
+            /* border: solid gray; */
+            height: 80vh;
+            
+        }
+        button{
+            width: 90px;
+            height: 30px;
+            margin-top: 3px;
+            background-color: red;
+            align-items: right;
+            margin-left: 2px;           
+        }
+        .right{
+        grid-area:right;
+            height: 80vh;
+            background-color: rgb(17, 8, 8);
+
+        }
+
+         main{
+            grid-area: main;
+            height: 30vh;
+            
+         }
+        .lab{
+             font-size: 35px;
+             margin-right: 900px;
+             margin-left: 3cqw;
+        }
+        .first{
+            /* border: solid rgb(166, 255, 0); */
+            display: flex;
+            width: 290px;
+            margin-left: 10px;
+            height: 100px;
+            margin-top: 30px;
+            border-radius: 5px;
+            background-color: hotpink;
+        }
+        .second{
+            /* border: solid rgb(166, 255, 0); */
+            display: flex;
+            width: 290px;
+            margin-left:100px;
+            height: 100px;
+            margin-top: 30px;
+            border-radius: 5px;
+            background-color: hotpink;
+        }
+        .general{
+            display: flex;
+            margin-left: 30px;
+        }
+        .pp{
+           
+            margin-right: 100px;
+        }
+        
+        .side1{
+            margin-left: 30px;
+         color: white;
+         border-bottom: solid gray;
+        }
+        .side2{
+            padding: 10px;
+            margin-left: 30px;
+         color: white;
+         border-bottom: solid gray;
+
+        }
+        .side3{
+            padding: 10px;
+            margin-left: 30px;
+         color: white;
+         border-bottom: solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="ggg">
+    <header>
+        <nav>
+        <label class="lab">W.</label>
+        <a href="home">Home</a>
+        <a href="new">New</a>
+        <a href="trending">Trending</a>
+        <a href="categories">Categories</a>
+        
+    </nav>
+    </header>
+    <aside class="right">
+        <div class="side1">
+        <h1>New</h1>
+        <h2>Hydrogen vs Electric cars</h2>
+        <p>hknkljhhkhcdsjbcjjfbjnkhnrlnjzjndkmdl;sknjdfshgdfds</p>
+    </div>
+<div class="side2">
+    <h2>The Downside of Ai Artistrtry</h2>
+    <p>hfjguzhhgijzihdjjghzhghfhzfjipjizhkndkla';slkfhHFdkeh</p>
+</div>
+<div class="side3">
+    
+    <h2>The Downside of Ai Artistrtry</h2>
+    <p>hfjguzhhgijzihdjjghzhghfhjlfdjhjlhfjhfdkjlgfdghgfjfdjhfgh<br>jgfjjtjjkjkhjhjkhjjhkhstksjkjtshkp<br>zfjipjizhkndkla';slkfhHFdkeh</p>
+</div>
+<br>
+    </aside>
+    <aside class="left">
+        <img src="download (5).jpeg" alt="ima" width="70%" height="">
+        <div class="bod">
+<h1>The Bright <br>
+    future of<br>
+     web 3.0?</h1>
+     <p class="prime">we dive into the next 
+        evulution of the web that<br>
+         claims to put the power of the
+          platform back<br> into thehands of 
+        the poeple but is it really<br>
+         fulfiling its promise ?<br><button>Read more</button></p>
+         
+     </div>
+    </aside>
+    <main>
+    <div class="general">
+        <div class="first">
+            <img src="d (1).jpg" alt="" style="width: 95px;">
+          <label><b>01. <br>Reviewing retro pc</b><br>about repairing the last rent ot in humane</label>
+   </div>
+        <div class="second">
+            
+                <img src="d (1).jpg" alt="" style="width: 95px;">
+              <label><b>02. <br>Reviewing retro pc</b><br>about repairing the last rent ot in humane</label>
+        </div>
+        <div class="second">
+            
+            <img src="d (1).jpg" alt="" style="width: 95px;">
+          <label><b> 03. <br>Reviewing retro pc</b><br>about repairing the last rent ot in humane</label>
+    </div>    
+        </main>
+</div>
+
+</body>
+</html>
